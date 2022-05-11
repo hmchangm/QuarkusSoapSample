@@ -1,0 +1,25 @@
+POST http://localhost:8080/soap/simple
+Content-Type: text/xml
+
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:urn="urn:com:t1m0:soap">
+    <soapenv:Body>
+        <urn:greetingRequest>
+            <name>Test</name>
+        </urn:greetingRequest>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+###
+POST http://localhost:8080/soap/simple
+Content-Type: text/xml
+
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    <soap:Body>
+        <greetingRequest xmlns="urn:com:t1m0:soap">
+            <name>t1m0</name>
+        </greetingRequest>
+    </soap:Body>
+</soap:Envelope>
