@@ -30,7 +30,7 @@ class SimpleSoapControllerTest {
             )
             contentType("text/xml")
         } When {
-            post("/soap/simple")
+            post("/simple")
         } Then {
             statusCode(200)
             body(

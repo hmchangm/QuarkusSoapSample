@@ -1,4 +1,4 @@
-POST http://localhost:8080/soap/simple
+POST http://localhost:8080/simple
 Content-Type: text/xml
 
 <?xml version="1.0" encoding="UTF-8"?>
@@ -12,7 +12,7 @@ Content-Type: text/xml
 </soapenv:Envelope>
 
 ###
-POST http://localhost:8080/soap/simple
+POST http://localhost:8080/simple
 Content-Type: text/xml
 
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
